@@ -1,0 +1,38 @@
+.toolbar1 {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  right: 289px;
+  top: 0px;
+}
+.toolbar2 {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  right: 252px;
+  top: 0px;
+}
+.menubar1 {
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  left: 330px;
+  top: 31px;
+  background: #C4C4C4;
+}
+.menubar2 {
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  left: 330px;
+  top: 25px;
+  background: #c4c4c4;
+}
+.menubar3 {
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  left: 330px;
+  top: 19px;
+  background: #C4C4C4;
+}
