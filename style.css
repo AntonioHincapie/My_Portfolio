@@ -63,11 +63,12 @@ button {
   box-shadow: 0 2px #999;
 }
 
-.button:hover {
+button:hover {
   background-color: #fff;
+  color: #1a2236;
 }
 
-.button:active {
+button:active {
   background-color: #fff;
   box-shadow: 0 2px #999;
   transform: translateY(5px);
