@@ -36,6 +36,9 @@
   top: 19px;
   background: #C4C4C4;
 }
+.navbar{
+  display: flex;
+}
 h1 {
   position: absolute;
   width: 220px;
