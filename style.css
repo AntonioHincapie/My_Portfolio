@@ -1,50 +1,27 @@
-.toolbar1 {
-  position: absolute;
-  width: 74px;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.toolbar {
+  width: 111px;
   height: 74px;
-  right: 289px;
-  top: 0px;
 }
-.toolbar2 {
-  position: absolute;
-  width: 74px;
-  height: 74px;
-  right: 252px;
-  top: 0px;
-}
-.menubar1 {
-  position: absolute;
+.rectangle {
   width: 20px;
-  height: 2px;
-  left: 330px;
-  top: 31px;
-  background: #C4C4C4;
-}
-.menubar2 {
-  position: absolute;
-  width: 20px;
-  height: 2px;
-  left: 330px;
-  top: 25px;
-  background: #c4c4c4;
-}
-.menubar3 {
-  position: absolute;
-  width: 20px;
-  height: 2px;
-  left: 330px;
-  top: 19px;
+  height: 10px;
+  margin-top: 25px;
+  margin-right: 16px;
   background: #C4C4C4;
 }
 .navbar{
   display: flex;
+  justify-content: space-between;
 }
 h1 {
-  position: absolute;
-  width: 220px;
-  height: 100px;
-  left: 16px;
-  top: 104px; 
+  margin: 30px 84px 10px 16px;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
@@ -52,12 +29,8 @@ h1 {
   line-height: 100%;
   color: #1A2236;
 }
-h5 {
-  position: absolute;
-  width: 288px;
-  height: 126px;
-  left: 16px;
-  top: 224px;
+p {
+  margin: 10px 16px 24px 16px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -67,24 +40,26 @@ h5 {
   color: #1A2236;    
 }
 h6 {
-  position: absolute;
-  width: 203.68px;
-  height: 26.47px;
-  left: 58px;
-  top: 402px;
+  margin: 16px;
+  padding: 12px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;    
+  color: #ffffff;
+  background-color: #1A2236; 
 }
-.collaboration_buttom2{
-  position: absolute;
-  width: 288px;
-  height: 50px;
-  left: 16px;
-  top: 390px;
-  background: #1A2236;
+.headline {
+  display: flex;
+  flex-direction: column;
+
+}
+.bottomheader{
+  margin-top: 16px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
 }
