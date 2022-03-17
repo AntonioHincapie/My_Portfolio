@@ -46,6 +46,7 @@ p {
 }
 
 button {
+  cursor: pointer;
   height: 50px;
   width: 90%;
   margin: 16px;
@@ -58,6 +59,18 @@ button {
   text-align: center;
   color: #fff;
   background-color: #1a2236;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+.button:hover {
+  background-color: #fff)
+}
+
+.button:active {
+  background-color: #fff;
+  box-shadow: 0 2px #999;
+  transform: translateY(5px);
 }
 
 .headline {
