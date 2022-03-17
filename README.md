@@ -34,3 +34,7 @@ Give a ⭐️ if you like this project!
 - Microverse curriculum.
 - This is Inspirated on Figma templeates.
 - My code partners and code reviewers. 
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
