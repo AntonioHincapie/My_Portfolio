@@ -16,46 +16,46 @@
   height: 10px;
   margin-top: 25px;
   margin-right: 16px;
-  background: #C4C4C4;
+  background: #c4c4c4;
 }
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
 }
 
 h1 {
   margin: 30px 84px 10px 16px;
-  font-family: 'Playfair Display';
+  font-family: 'playfair display';
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 p {
   margin: 10px 16px 24px 16px;
-  font-family: 'Poppins';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  color: #1A2236;    
+  color: #1a2236;
 }
 
 h6 {
   margin: 16px;
   padding: 12px;
-  font-family: 'Poppins';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #ffffff;
-  background-color: #1A2236; 
+  color: #fff;
+  background-color: #1a2236;
 }
 
 .headline {
@@ -63,11 +63,11 @@ h6 {
   flex-direction: column;
 }
 
-.bottomheader{
+.bottomheader {
   margin-top: 16px;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
 }
