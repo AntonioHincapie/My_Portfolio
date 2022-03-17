@@ -1,0 +1,85 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.toolbar {
+  width: 111px;
+  height: 74px;
+}
+
+.rectangle {
+  width: 20px;
+  height: 10px;
+  margin-top: 25px;
+  margin-right: 16px;
+  background: #c4c4c4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 30px 84px 10px 16px;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+p {
+  margin: 10px 16px 24px 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+button {
+  cursor: pointer;
+  height: 50px;
+  width: 90%;
+  margin: 16px;
+  padding: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #1a2236;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #1a2236;
+}
+
+button:active {
+  background-color: #fff;
+  box-shadow: 0 2px #999;
+  transform: translateY(5px);
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomheader {
+  width: 100%;
+  margin-top: 16px;
+}
