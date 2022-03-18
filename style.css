@@ -147,6 +147,7 @@ h3 {
   display: flex;
   column-gap: 14px;
   margin: 8px 50px 10px 20px;
+  list-style: none;
 }
 
 .buttonproject {
@@ -219,6 +220,7 @@ h3 {
   justify-content: center;
   row-gap: 16px;
   margin: 16px;
+  list-style: none;
 }
 
 .languages1 {
@@ -245,6 +247,17 @@ h3 {
 .position {
   margin-top: 21px;
   margin-left: 50px;
+  list-style: disc;
+}
+
+h5 {
+  margin: 30px 84px 10px 16px;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
 }
 
 h4 {
@@ -258,7 +271,7 @@ h4 {
   color: #fff;
 }
 
-li {
+.item {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
