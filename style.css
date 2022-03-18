@@ -114,7 +114,9 @@ h3 {
   color: #fff;
 }
 
-.html, .ruby, .js {
+.html,
+.ruby,
+.js {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -205,11 +207,16 @@ h3 {
   box-shadow: 0 2px #999;
 }
 
+.about-button:hover {
+  background-color: #fff;
+  color: #1a2236;
+}
+
 .tech {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(3, 289px);
-  justify-content:center;
+  justify-content: center;
   row-gap: 16px;
   margin: 16px;
 }
