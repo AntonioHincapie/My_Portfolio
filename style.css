@@ -147,7 +147,7 @@ li {
   margin: 8px 50px 10px 20px;
 }
 
-#buttonproject {
+.buttonproject {
   display: flex;
   cursor: pointer;
   justify-content: space-between;
@@ -168,13 +168,13 @@ li {
   background-color: #1a2236;
 }
 
-#buttonproject img {
+.buttonproject img {
   height: 15.35px;
   width: 20.57px;
   padding-top: 4px;
 }
 
-#buttonproject:hover {
+.buttonproject:hover {
   background-color: #fff;
   color: #1a2236;
 }
