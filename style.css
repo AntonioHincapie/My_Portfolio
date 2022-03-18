@@ -83,13 +83,13 @@ button:active {
   margin-top: 16px;
 }
 
-.works{
+.works {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(7,auto);
+  grid-template-rows: repeat(7, auto);
 }
 
-.projecttitle{
+.projecttitle {
   margin: 39.9px 123px 32px 16px;
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
@@ -106,7 +106,7 @@ button:active {
 
 h3 {
   margin: 20px 36px 8px 20px;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -141,7 +141,7 @@ li {
   width: 87px;
 }
 
-.languages{
+.languages {
   display: flex;
   column-gap: 14px;
   margin: 8px 50px 10px 20px;
@@ -162,16 +162,16 @@ li {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   border-radius: 2%;
-  box-shadow:0 0px;
+  box-shadow: 0 2px;
   background-color: #1a2236;
 }
 
 #buttonproject img {
   height: 15.35px;
   width: 20.57px;
-  padding-top: 4px ;
+  padding-top: 4px;
 }
 
 #buttonproject:hover {
