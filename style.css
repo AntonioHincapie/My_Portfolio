@@ -126,17 +126,17 @@ li {
   padding: 6px 10px 6px 10px;
 }
 
-#html {
+.html {
   height: 20px;
   width: 69px;
 }
 
-#ruby {
+.ruby {
   height: 20px;
   width: 97px;
 }
 
-#js {
+.js {
   height: 20px;
   width: 87px;
 }
