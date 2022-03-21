@@ -26,7 +26,7 @@
 
 h1 {
   margin: 30px 84px 10px 16px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -36,7 +36,7 @@ h1 {
 
 p {
   margin: 10px 16px 24px 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -51,7 +51,7 @@ p {
   width: 90%;
   margin: 16px;
   padding: 12px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -91,7 +91,7 @@ button:active {
 
 .projecttitle {
   margin: 39.9px 123px 32px 16px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -106,7 +106,7 @@ button:active {
 
 h3 {
   margin: 20px 36px 8px 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -117,7 +117,7 @@ h3 {
 .html,
 .ruby,
 .js {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 10.3334px;
@@ -159,7 +159,7 @@ h3 {
   padding: 10px;
   margin: 10px 122px 20px 20px;
   border: 2px solid #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -197,7 +197,7 @@ h3 {
   width: 90%;
   margin: 16px;
   padding: 13px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -252,7 +252,7 @@ h3 {
 
 h5 {
   margin: 30px 84px 10px 16px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -263,7 +263,7 @@ h5 {
 h4 {
   margin-top: 50px;
   margin-left: 50px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -272,7 +272,7 @@ h4 {
 }
 
 .item {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
