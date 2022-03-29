@@ -192,6 +192,8 @@ h3 {
   background-color: #1a2236;
 }
 
+/* Aboutme Section css */
+
 .about-button {
   display: flex;
   justify-content: center;
@@ -359,6 +361,8 @@ textarea:hover {
   background-color: #fff;
   color: #1a2236;
 }
+
+/* Footer css */
 
 .links {
   display: flex;
