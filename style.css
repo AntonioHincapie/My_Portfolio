@@ -282,7 +282,33 @@ h4 {
 }
 
 /* Contact-form Section css */
-form input{
+form {
+  background-color: #f9f9fa;
+}
+
+form ul {
+  margin-left: 53px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+label {
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+input{
   width: 288px;
   height: 50px;
+  padding-top: 15px;
+  padding-left: 4px
+}
+
+textarea {
+  width: 288px;
+  height: 112px;
+  padding-top: 10px;
 }
