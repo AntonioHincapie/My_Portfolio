@@ -280,3 +280,9 @@ h4 {
   letter-spacing: -0.0525em;
   color: #fff;
 }
+
+/* Contact-form Section css */
+form input{
+  width: 288px;
+  height: 50px;
+}
