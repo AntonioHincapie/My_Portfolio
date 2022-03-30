@@ -29,7 +29,8 @@
 /* Headline Section css*/
 
 h1 {
-  margin: 30px 84px 10px 16px;
+  margin-top: 14px;
+  margin-right: 10px;
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -39,7 +40,7 @@ h1 {
 }
 
 p {
-  margin: 10px 16px 24px 16px;
+  margin-top: 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -52,8 +53,8 @@ p {
 .headline-button {
   cursor: pointer;
   height: 50px;
-  width: 90%;
-  margin: 16px;
+  width: 100%;
+  margin-top: 40px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -79,6 +80,7 @@ button:active {
 .headline {
   display: flex;
   flex-direction: column;
+  margin: 16px;
 }
 
 .bottomheader {
