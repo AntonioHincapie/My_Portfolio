@@ -26,6 +26,8 @@
   justify-content: space-between;
 }
 
+/* Headline Section css*/
+
 h1 {
   margin: 30px 84px 10px 16px;
   font-family: "Playfair Display", sans-serif;
@@ -52,7 +54,6 @@ p {
   height: 50px;
   width: 90%;
   margin: 16px;
-  padding: 12px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
