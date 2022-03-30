@@ -146,6 +146,7 @@ button:active {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    margin-bottom: 200px;
   }
 
   .sideheader {
@@ -287,6 +288,12 @@ h3 {
 
 /* Aboutme Section CSS */
 
+.aboutheadline {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+
 .about-button {
   display: flex;
   justify-content: center;
@@ -391,6 +398,12 @@ h4 {
 
 .contactform {
   margin-top: 34px;
+}
+
+.contactheadline {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
 }
 
 .submitform {
