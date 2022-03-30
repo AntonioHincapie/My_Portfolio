@@ -435,11 +435,11 @@ h4 {
     background-position: bottom right;
     background-repeat: no-repeat;
   }
-}
 
-.about-button {
-  height: 70px;
-  width: 254px;
+  .about-button {
+    height: 70px;
+    width: 254px;
+  }
 }
 
 /* Contact-form Section CSS */
