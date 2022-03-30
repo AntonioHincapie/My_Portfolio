@@ -144,8 +144,7 @@ button:active {
 
   .hellosection {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 50% 50%;
     margin-bottom: 200px;
   }
 
@@ -297,6 +296,7 @@ h3 {
 .about-button {
   display: flex;
   justify-content: center;
+  align-items: center;
   column-gap: 20px;
   cursor: pointer;
   height: 50px;
@@ -386,6 +386,60 @@ h4 {
   line-height: 27px;
   letter-spacing: -0.0525em;
   color: #fff;
+}
+
+/*Aboutme Desktop Section CSS*/
+
+@media (min-width: 768px) {
+  .aboutme {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 200px;
+  }
+
+  .aboutheadline {
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-right: 120px;
+    margin-left: 40px;
+  }
+
+  .tech {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 0px;
+    margin-left: 100px;
+    margin-right: 40px;
+  }
+
+  .item {
+    font-size: 16px;
+  }
+
+  .position {
+    margin-top: 11px;
+    margin-left: 35px;
+  }
+
+  h4 {
+    margin-top: 25px;
+    margin-left: 35px;
+  }
+
+  .dotsquare {
+    background-image: url(img/dotsquare.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+}
+
+.about-button {
+  height: 70px;
+  width: 254px;
 }
 
 /* Contact-form Section CSS */
