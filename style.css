@@ -24,6 +24,10 @@
   justify-content: space-between;
 }
 
+.navbar.desk {
+  display: none;
+}
+
 .navbutton {
   cursor: pointer;
   border: none;
@@ -38,7 +42,7 @@
 
 /*NavBar Desktop Section CSS*/
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .toolbar {
     display: none;
   }
@@ -133,19 +137,39 @@ button:active {
 
 /* Headline Desktop Section CSS*/
 
-@media (min-width: 600px) {
-  .headline {
-    display: grid;
-  }
-
+@media (min-width: 768px) {
   .bottomheader {
     display: none;
+  }
+
+  .hellosection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 
   .sideheader {
     display: block;
     width: 100%;
     height: auto;
+  }
+
+  .headline {
+    justify-content: center;
+    padding: 120px;
+    margin: 0px;
+    background-image: url(img/imagedots.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  .headline-button {
+    height: 70px;
+    width: 254px;
+  }
+
+  p {
+    margin-top: 40px;
   }
 }
 
@@ -254,6 +278,11 @@ h3 {
   display: flex;
   flex-direction: column;
   background-color: #1a2236;
+}
+
+/*Works Desktop Section CSS*/
+
+@media (min-width: 768px) {
 }
 
 /* Aboutme Section CSS */
