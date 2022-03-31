@@ -283,6 +283,10 @@ h3 {
 /*Works Desktop Section CSS*/
 
 @media (min-width: 768px) {
+  .works {
+  grid-template-columns: 26.8% 19.8% 16.8% 19.8% 16.8%; 
+  grid-template-rows: 32.2% 4.8% 10.6% 10.6% 10.6% 15.6% 15.6%;
+  }
 }
 
 /* Aboutme Section CSS */
