@@ -434,6 +434,7 @@ h4 {
   .about-button {
     height: 70px;
     width: 254px;
+    margin-top: 40px;
   }
 }
 
@@ -532,7 +533,71 @@ textarea:hover {
   }
 
   .contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(img/contactshape.png) ,url(img/contactshape2.png);
+    background-position-x : left, right;
+    background-position-y: top, bottom;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+  }
+
+  .contactheadline {
+    align-items: center;
+    margin-top: 150px;
+    width: 560px;
+  }
+
+  h5 {
+    font-size: 110px;
+  }
+
+  .submitform {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 66px;
+  }
+
+  .nameform {
+    position: relative;
+    right: 144px;
+  }
+
+  .mailform {
+    position: relative;
+    top: -68px;
+    right: -144px;
+  }
+
+  .messageform {
+    position: relative;
+    top: -40px;
+  }
+
+  label {
+    margin-top: -16px;
+  }
+
+  #first_name {
+    width: 254px;
+    height: 60px;
+  }
+
+  #mail {
+    width: 254px;
+    height: 60px;
+  }
+
+  textarea {
+    width: 540px;
+    height: 140px;
+  }
+
+  .contact-button {
+    width: 254px;
+    height: 70px;
   }
 }
 
@@ -579,6 +644,7 @@ textarea:hover {
   .links {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding-left: 160px;
     padding-right: 160px;
   }
