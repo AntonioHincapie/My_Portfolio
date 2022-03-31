@@ -403,6 +403,7 @@ h4 {
     grid-column-end: 3;
     margin-right: 120px;
     margin-left: 40px;
+    padding-right: 100px;
   }
 
   .tech {
@@ -421,13 +422,7 @@ h4 {
   }
 
   .position {
-    margin-top: 11px;
-    margin-left: 35px;
-  }
-
-  h4 {
-    margin-top: 25px;
-    margin-left: 35px;
+  padding-bottom: 50px;
   }
 
   .dotsquare {
@@ -564,4 +559,19 @@ textarea:hover {
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+/*Footer Desktop CSS*/
+
+@media (min-width: 768px) {
+  .links {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  .social-network {
+    column-gap: 32px;
+  }
 }
