@@ -245,7 +245,8 @@ h3 {
 .buttonproject {
   display: flex;
   cursor: pointer;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   height: 44px;
   width: 178px;
   padding: 10px;
@@ -266,7 +267,6 @@ h3 {
 .buttonproject img {
   height: 15.35px;
   width: 20.57px;
-  padding-top: 4px;
 }
 
 .buttonproject:hover {
@@ -286,6 +286,203 @@ h3 {
   .works {
   grid-template-columns: 26.8% 19.8% 16.8% 19.8% 16.8%; 
   grid-template-rows: 32.2% 4.8% 10.6% 10.6% 10.6% 15.6% 15.6%;
+  grid-auto-flow: row;
+  gap: 0 0;
+  height: 1660px;
+  }
+
+  .works img {
+    display: none;
+  }
+
+  .buttonproject img {
+    display: block;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .html{
+    width: 132px;
+  }
+
+  .ruby {
+    width: 169px;
+  }
+
+  .js {
+    width: 144px;
+  }
+
+  .html,
+  .ruby,
+  .js {
+    height: 40px;
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .buttonproject {
+    height: 51px;
+    width: 212px;
+  }
+
+  .projecttitle {
+    display: flex;
+    align-items: center;
+    background-image: url(img/imagedots.svg);
+    background-position: 100% 80%;
+    background-repeat: no-repeat;
+    background-size: 130px;
+    transform: rotate(-90deg);
+    font-size: 110px;
+    margin: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .projectdescription.a {
+    grid-area: 1 / 2 / 2 /6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: url(img/project1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 60%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 6%;
+  }
+
+  .projectinfo1 h3 {
+    font-size: 40px;
+  }
+
+  .projectdescription.b {
+    grid-area: 3 / 1 / 5 / 2;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/project2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .projectdescription.c{
+    grid-area: 5 / 1 / 7 / 3;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/project3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .projectdescription.d{
+    grid-area: 7 / 3 / 8 / 5;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/project4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .projectdescription.e{
+    grid-area: 4 / 4 / 6 /6;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/project5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo5 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .projectdescription.f{
+    grid-area: 2 / 4 / 4 / 6;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/project6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo6 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .background1 {
+    grid-area: 2 / 2 / 5 / 4;
+    background-image: url(img/background1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .background2 {
+    grid-area: 6 / 3 / 7 / 6;
+    background-image: url(img/background2.1.svg), url(img/background2.2.svg);
+    background-repeat: no-repeat;
+    background-position-x: right, left;
+    background-position-y: top, bottom;
+  }
+
+  .background3 {
+    grid-area: 7 / 1 / 8 / 3;
+    background-image: url(img/background3.svg), url(img/background4.svg);
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+    background-position-y: top;
   }
 }
 
@@ -540,11 +737,12 @@ textarea:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(img/contactshape.png) ,url(img/contactshape2.png);
+    background-image: url(img/contactshape.png), url(img/contactshape2.png);
     background-position-x : left, right;
     background-position-y: top, bottom;
     background-repeat: no-repeat;
     margin-top: 150px;
+    background-color: #f9f9fa;
   }
 
   .contactheadline {
