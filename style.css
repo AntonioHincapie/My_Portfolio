@@ -524,6 +524,18 @@ textarea:hover {
   color: #1a2236;
 }
 
+/*Contact-form Desktop Section CSS*/
+
+@media (min-width: 768px) {
+  .toolbar2 {
+    display: none;
+  }
+
+  .contactform {
+    background-image: url(img/contactshape.png) ,url(img/contactshape2.png);
+  }
+}
+
 /* Footer CSS */
 
 .links {
