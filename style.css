@@ -152,7 +152,12 @@ button:active {
     display: block;
     width: 100%;
     height: auto;
-  }
+    animation: mymove 5s;
+}
+
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+}
 
   .headline {
     justify-content: center;
@@ -341,6 +346,12 @@ h3 {
     align-items: flex-start;
     justify-content: space-evenly;
     padding-left: 6%;
+    transition: 3s ease-in-out;
+    opacity: 0;
+  }
+
+  .projectinfo1:hover {
+  opacity: 1;
   }
 
   .projectinfo1 h3 {
