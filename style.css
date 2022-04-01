@@ -375,6 +375,12 @@ h3 {
     height: 70%;
     justify-content: space-evenly;
     padding-left: 2%;
+    transition: 3s ease-in-out;
+    opacity: 0;
+  }
+
+  .projectinfo2:hover {
+    opacity: 1;
   }
 
   .projectdescription.c {
@@ -394,6 +400,12 @@ h3 {
     height: 70%;
     justify-content: space-evenly;
     padding-left: 2%;
+    transition: 3s ease-in-out;
+    opacity: 0;
+  }
+
+  .projectinfo3:hover {
+    opacity: 1;
   }
 
   .projectdescription.d {
@@ -413,6 +425,12 @@ h3 {
     height: 70%;
     justify-content: space-evenly;
     padding-left: 2%;
+    transition: 3s ease-in-out;
+    opacity: 0;
+  }
+
+  .projectinfo4:hover {
+    opacity: 1;
   }
 
   .projectdescription.e {
@@ -432,6 +450,12 @@ h3 {
     height: 70%;
     justify-content: space-evenly;
     padding-left: 2%;
+    transition: 3s ease-in-out;
+    opacity: 0;
+  }
+
+  .projectinfo5:hover {
+    opacity: 1;
   }
 
   .projectdescription.f {
@@ -451,6 +475,12 @@ h3 {
     height: 70%;
     justify-content: space-evenly;
     padding-left: 2%;
+    transition: 3s ease-in-out;
+    opacity: 0;
+  }
+
+  .projectinfo6:hover {
+    opacity: 1;
   }
 
   .background1 {
