@@ -1,12 +1,10 @@
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* NavBar Section css */
+/* NavBar Section CSS */
 
 .toolbar {
   width: 111px;
@@ -26,10 +24,56 @@
   justify-content: space-between;
 }
 
-/* Headline Section css*/
+.navbar.desk {
+  display: none;
+}
+
+.navbutton {
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  color: #1a2236;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* NavBar Desktop Section CSS */
+
+@media (min-width: 768px) {
+  .toolbar {
+    display: none;
+  }
+
+  .rectangle {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  .navbar.desk {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 38px;
+    list-style: none;
+  }
+
+  .navbutton:hover {
+    text-decoration: underline;
+    color: #1a2236;
+  }
+}
+
+/* Headline Section CSS */
 
 h1 {
-  margin: 30px 84px 10px 16px;
+  margin-top: 14px;
+  margin-right: 10px;
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -39,7 +83,7 @@ h1 {
 }
 
 p {
-  margin: 10px 16px 24px 16px;
+  margin-top: 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -52,8 +96,8 @@ p {
 .headline-button {
   cursor: pointer;
   height: 50px;
-  width: 90%;
-  margin: 16px;
+  width: 100%;
+  margin-top: 40px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -79,14 +123,62 @@ button:active {
 .headline {
   display: flex;
   flex-direction: column;
+  margin: 16px;
 }
 
 .bottomheader {
   width: 100%;
-  margin-top: 16px;
+  margin-top: 32px;
 }
 
-/* Works Section css */
+.sideheader {
+  display: none;
+}
+
+/* Headline Desktop Section CSS */
+
+@media (min-width: 768px) {
+  .bottomheader {
+    display: none;
+  }
+
+  .hellosection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 200px;
+  }
+
+  .sideheader {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .headline {
+    justify-content: center;
+    padding: 120px;
+    margin: none;
+    font-size: 110px;
+    background-image: url(img/imagedots.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  .headline-button {
+    height: 70px;
+    width: 254px;
+  }
+
+  h1 {
+    font-size: 110px;
+  }
+
+  p {
+    margin-top: 40px;
+  }
+}
+
+/* Works Section CSS */
 
 .works {
   display: grid;
@@ -95,7 +187,7 @@ button:active {
 }
 
 .projecttitle {
-  margin: 39.9px 123px 32px 16px;
+  margin: 24px 123px 32px 16px;
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -131,21 +223,7 @@ h3 {
   color: #1a2236;
   background-color: #98dede;
   padding: 6px 10px 6px 10px;
-}
-
-.html {
-  height: 20px;
-  width: 69px;
-}
-
-.ruby {
-  height: 20px;
-  width: 97px;
-}
-
-.js {
-  height: 20px;
-  width: 87px;
+  margin: 1px;
 }
 
 .languages {
@@ -153,12 +231,14 @@ h3 {
   column-gap: 14px;
   margin: 8px 50px 10px 20px;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .buttonproject {
   display: flex;
   cursor: pointer;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   height: 44px;
   width: 178px;
   padding: 10px;
@@ -179,7 +259,6 @@ h3 {
 .buttonproject img {
   height: 15.35px;
   width: 20.57px;
-  padding-top: 4px;
 }
 
 .buttonproject:hover {
@@ -193,16 +272,218 @@ h3 {
   background-color: #1a2236;
 }
 
-/* Aboutme Section css */
+/* Works Desktop Section CSS */
+
+@media (min-width: 768px) {
+  .works {
+    grid-template-columns: 26.8% 19.8% 16.8% 19.8% 16.8%;
+    grid-template-rows: 32.2% 4.8% 10.6% 10.6% 10.6% 15.6% 15.6%;
+    grid-auto-flow: row;
+    gap: 0 0;
+    height: 1660px;
+  }
+
+  .works img {
+    display: none;
+  }
+
+  .buttonproject img {
+    display: block;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .html,
+  .ruby,
+  .js {
+    height: 40px;
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .buttonproject {
+    height: 51px;
+    width: 212px;
+  }
+
+  .projecttitle {
+    display: flex;
+    align-items: center;
+    background-image: url(img/imagedots.svg);
+    background-position: 100% 80%;
+    background-repeat: no-repeat;
+    background-size: 130px;
+    transform: rotate(-90deg);
+    font-size: 110px;
+    margin: 0;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .projectdescription.a {
+    grid-area: 1 / 2 / 2 /6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: url(img/project1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 60%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 6%;
+  }
+
+  .projectinfo1 h3 {
+    font-size: 40px;
+  }
+
+  .projectdescription.b {
+    grid-area: 3 / 1 / 5 / 2;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/project2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .projectdescription.c {
+    grid-area: 5 / 1 / 7 / 3;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/project3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .projectdescription.d {
+    grid-area: 7 / 3 / 8 / 5;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/project4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .projectdescription.e {
+    grid-area: 4 / 4 / 6 /6;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/project5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo5 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .projectdescription.f {
+    grid-area: 2 / 4 / 4 / 6;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/project6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projectinfo6 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding-left: 2%;
+  }
+
+  .background1 {
+    grid-area: 2 / 2 / 5 / 4;
+    background-image: url(img/background1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .background2 {
+    grid-area: 6 / 3 / 7 / 6;
+    background-image: url(img/background2.1.svg), url(img/background2.2.svg);
+    background-repeat: no-repeat;
+    background-position-x: right, left;
+    background-position-y: top, bottom;
+  }
+
+  .background3 {
+    grid-area: 7 / 1 / 8 / 3;
+    background-image: url(img/background3.svg), url(img/background4.svg);
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+    background-position-y: top;
+  }
+}
+
+/* Aboutme Section CSS */
+
+.aboutheadline {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
 
 .about-button {
   display: flex;
   justify-content: center;
+  align-items: center;
   column-gap: 20px;
   cursor: pointer;
   height: 50px;
-  width: 90%;
-  margin: 16px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
   padding: 13px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -258,7 +539,7 @@ h3 {
 }
 
 h5 {
-  margin: 30px 84px 10px 16px;
+  margin-top: 40px;
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -288,10 +569,72 @@ h4 {
   color: #fff;
 }
 
-/* Contact-form Section css */
+/* Aboutme Desktop Section CSS */
+
+@media (min-width: 768px) {
+  .aboutme {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 200px;
+  }
+
+  .aboutheadline {
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-right: 120px;
+    margin-left: 40px;
+    padding-right: 100px;
+  }
+
+  .tech {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 0;
+    margin-left: 100px;
+    margin-right: 40px;
+  }
+
+  .item {
+    font-size: 16px;
+  }
+
+  .position {
+    padding-bottom: 50px;
+  }
+
+  .dotsquare {
+    background-image: url(img/dotsquare.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  .about-button {
+    height: 70px;
+    width: 254px;
+    margin-top: 40px;
+  }
+}
+
+/* Contact-form Section CSS */
+
+.toolbar2 {
+  width: 111px;
+  height: 74px;
+  margin-left: -16px;
+}
 
 .contactform {
   margin-top: 34px;
+}
+
+.contactheadline {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
 }
 
 .submitform {
@@ -363,7 +706,84 @@ textarea:hover {
   color: #1a2236;
 }
 
-/* Footer css */
+/* Contact-form Desktop Section CSS */
+
+@media (min-width: 768px) {
+  .toolbar2 {
+    display: none;
+  }
+
+  .contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/contactshape.png), url(img/contactshape2.png);
+    background-position-x: left, right;
+    background-position-y: top, bottom;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    background-color: #f9f9fa;
+  }
+
+  .contactheadline {
+    align-items: center;
+    margin-top: 150px;
+    width: 560px;
+  }
+
+  h5 {
+    font-size: 110px;
+  }
+
+  .submitform {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 66px;
+  }
+
+  .nameform {
+    position: relative;
+    right: 144px;
+  }
+
+  .mailform {
+    position: relative;
+    top: -68px;
+    right: -144px;
+  }
+
+  .messageform {
+    position: relative;
+    top: -40px;
+  }
+
+  label {
+    margin-top: -16px;
+  }
+
+  #first_name {
+    width: 254px;
+    height: 60px;
+  }
+
+  #mail {
+    width: 254px;
+    height: 60px;
+  }
+
+  textarea {
+    width: 540px;
+    height: 140px;
+  }
+
+  .contact-button {
+    width: 254px;
+    height: 70px;
+  }
+}
+
+/* Footer CSS */
 
 .links {
   display: flex;
@@ -398,4 +818,20 @@ textarea:hover {
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+/* Footer Desktop CSS */
+
+@media (min-width: 768px) {
+  .links {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  .social-network {
+    column-gap: 32px;
+  }
 }
