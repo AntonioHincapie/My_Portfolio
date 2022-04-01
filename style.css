@@ -40,7 +40,7 @@
   line-height: 24px;
 }
 
-/*NavBar Desktop Section CSS*/
+/* NavBar Desktop Section CSS */
 
 @media (min-width: 768px) {
   .toolbar {
@@ -69,7 +69,7 @@
   }
 }
 
-/* Headline Section CSS*/
+/* Headline Section CSS */
 
 h1 {
   margin-top: 14px;
@@ -135,7 +135,7 @@ button:active {
   display: none;
 }
 
-/* Headline Desktop Section CSS*/
+/* Headline Desktop Section CSS */
 
 @media (min-width: 768px) {
   .bottomheader {
@@ -157,7 +157,7 @@ button:active {
   .headline {
     justify-content: center;
     padding: 120px;
-    margin: 0px;
+    margin: none;
     background-image: url(img/imagedots.svg);
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -280,15 +280,15 @@ h3 {
   background-color: #1a2236;
 }
 
-/*Works Desktop Section CSS*/
+/* Works Desktop Section CSS */
 
 @media (min-width: 768px) {
   .works {
-  grid-template-columns: 26.8% 19.8% 16.8% 19.8% 16.8%; 
-  grid-template-rows: 32.2% 4.8% 10.6% 10.6% 10.6% 15.6% 15.6%;
-  grid-auto-flow: row;
-  gap: 0 0;
-  height: 1660px;
+    grid-template-columns: 26.8% 19.8% 16.8% 19.8% 16.8%;
+    grid-template-rows: 32.2% 4.8% 10.6% 10.6% 10.6% 15.6% 15.6%;
+    grid-auto-flow: row;
+    gap: 0 0;
+    height: 1660px;
   }
 
   .works img {
@@ -304,7 +304,7 @@ h3 {
     font-size: 30px;
   }
 
-  .html{
+  .html {
     width: 132px;
   }
 
@@ -338,7 +338,7 @@ h3 {
     background-size: 130px;
     transform: rotate(-90deg);
     font-size: 110px;
-    margin: 0px;
+    margin: 0;
     grid-area: 1 / 1 / 2 / 2;
   }
 
@@ -386,7 +386,7 @@ h3 {
     padding-left: 2%;
   }
 
-  .projectdescription.c{
+  .projectdescription.c {
     grid-area: 5 / 1 / 7 / 3;
     display: flex;
     justify-content: flex-end;
@@ -405,7 +405,7 @@ h3 {
     padding-left: 2%;
   }
 
-  .projectdescription.d{
+  .projectdescription.d {
     grid-area: 7 / 3 / 8 / 5;
     display: flex;
     justify-content: flex-end;
@@ -424,7 +424,7 @@ h3 {
     padding-left: 2%;
   }
 
-  .projectdescription.e{
+  .projectdescription.e {
     grid-area: 4 / 4 / 6 /6;
     display: flex;
     justify-content: flex-end;
@@ -443,7 +443,7 @@ h3 {
     padding-left: 2%;
   }
 
-  .projectdescription.f{
+  .projectdescription.f {
     grid-area: 2 / 4 / 4 / 6;
     display: flex;
     justify-content: flex-end;
@@ -589,7 +589,7 @@ h4 {
   color: #fff;
 }
 
-/*Aboutme Desktop Section CSS*/
+/* Aboutme Desktop Section CSS */
 
 @media (min-width: 768px) {
   .aboutme {
@@ -613,7 +613,7 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 0px;
+    row-gap: 0;
     margin-left: 100px;
     margin-right: 40px;
   }
@@ -623,7 +623,7 @@ h4 {
   }
 
   .position {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
   }
 
   .dotsquare {
@@ -726,7 +726,7 @@ textarea:hover {
   color: #1a2236;
 }
 
-/*Contact-form Desktop Section CSS*/
+/* Contact-form Desktop Section CSS */
 
 @media (min-width: 768px) {
   .toolbar2 {
@@ -738,7 +738,7 @@ textarea:hover {
     flex-direction: column;
     align-items: center;
     background-image: url(img/contactshape.png), url(img/contactshape2.png);
-    background-position-x : left, right;
+    background-position-x: left, right;
     background-position-y: top, bottom;
     background-repeat: no-repeat;
     margin-top: 150px;
@@ -840,7 +840,7 @@ textarea:hover {
   justify-content: space-between;
 }
 
-/*Footer Desktop CSS*/
+/* Footer Desktop CSS */
 
 @media (min-width: 768px) {
   .links {
