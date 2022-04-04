@@ -63,9 +63,23 @@
     list-style: none;
   }
 
-  .navbutton:hover {
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #1a2236;
+  }
+
+  a:hover {
     text-decoration: underline;
     color: #1a2236;
+  }
+
+  a:active {
+    background-color: #fff;
+    box-shadow: 0 2px #999;
+    transform: translateY(5px);
   }
 }
 
