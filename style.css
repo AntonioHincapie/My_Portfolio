@@ -360,7 +360,7 @@ h3 {
     align-items: flex-start;
     justify-content: space-evenly;
     padding-left: 6%;
-    transition: 3s ease-in-out;
+    transition: 1.5s ease-in-out;
     opacity: 0;
   }
 
@@ -389,7 +389,7 @@ h3 {
     height: 70%;
     justify-content: space-evenly;
     padding-left: 2%;
-    transition: 3s ease-in-out;
+    transition: 1.5s ease-in-out;
     opacity: 0;
   }
 
@@ -414,7 +414,7 @@ h3 {
     height: 70%;
     justify-content: space-evenly;
     padding-left: 2%;
-    transition: 3s ease-in-out;
+    transition: 1.5s ease-in-out;
     opacity: 0;
   }
 
@@ -439,7 +439,7 @@ h3 {
     height: 70%;
     justify-content: space-evenly;
     padding-left: 2%;
-    transition: 3s ease-in-out;
+    transition: 1.5s ease-in-out;
     opacity: 0;
   }
 
@@ -464,7 +464,7 @@ h3 {
     height: 70%;
     justify-content: space-evenly;
     padding-left: 2%;
-    transition: 3s ease-in-out;
+    transition: 1.5s ease-in-out;
     opacity: 0;
   }
 
@@ -489,7 +489,7 @@ h3 {
     height: 70%;
     justify-content: space-evenly;
     padding-left: 2%;
-    transition: 3s ease-in-out;
+    transition: 1.5s ease-in-out;
     opacity: 0;
   }
 
