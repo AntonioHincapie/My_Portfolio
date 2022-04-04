@@ -63,6 +63,14 @@
     list-style: none;
   }
 
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #1a2236;
+  }
+
   .navbutton:hover {
     text-decoration: underline;
     color: #1a2236;
