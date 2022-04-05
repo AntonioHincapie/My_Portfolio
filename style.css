@@ -133,7 +133,7 @@ p {
 
 button:active {
   background-color: #fff;
-  box-shadow: 0 2px #999;
+  box-shadow: 0 2px #1a2236;
   transform: translateY(5px);
 }
 
