@@ -85,9 +85,12 @@
 
 /* Headline Section CSS */
 
-h1 {
+.headline h1 {
   margin-top: 14px;
   margin-right: 10px;
+}
+
+h1 {
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -207,12 +210,6 @@ button:active {
 
 .projecttitle {
   margin: 24px 123px 32px 16px;
-  font-family: "Playfair Display", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 100%;
-  color: #1a2236;
 }
 
 .projectdescription img {
@@ -220,7 +217,7 @@ button:active {
   height: auto;
 }
 
-h3 {
+h2 {
   margin: 20px 36px 8px 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -310,7 +307,7 @@ h3 {
     display: block;
   }
 
-  h3 {
+  h2 {
     font-weight: 600;
     font-size: 30px;
   }
@@ -368,7 +365,7 @@ h3 {
     opacity: 1;
   }
 
-  .projectinfo1 h3 {
+  .projectinfo1 h2 {
     font-size: 40px;
   }
 
@@ -593,17 +590,11 @@ h3 {
   list-style: disc;
 }
 
-h5 {
+.aboutheadline h1 {
   margin-top: 40px;
-  font-family: "Playfair Display", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 100%;
-  color: #1a2236;
 }
 
-h4 {
+h3 {
   margin-top: 50px;
   margin-left: 50px;
   font-family: "Poppins", sans-serif;
@@ -778,6 +769,10 @@ textarea:hover {
     background-repeat: no-repeat;
     margin-top: 150px;
     background-color: #f9f9fa;
+  }
+
+  .contactheadline h1 {
+    margin-top: 40px;
   }
 
   .contactheadline {
