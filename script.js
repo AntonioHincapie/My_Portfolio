@@ -13,6 +13,6 @@ exitBtn.addEventListener('click', () => {
 
 for (let i = 0; i < menuElements.length; i += 1) {
   menuElements[i].addEventListener('click', () => {
-		menu.style.display = 'none';
+    menu.style.display = 'none';
   });
 }
