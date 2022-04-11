@@ -24,8 +24,20 @@
   justify-content: space-between;
 }
 
-.navbar.desk {
+.desk {
   display: none;
+}
+
+#menu {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  background-image: url(img/backgroundmenu1.png), url(img/backgroundmenu2.png);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;  
 }
 
 .navbutton {
@@ -74,7 +86,7 @@ a:active {
     display: block;
   }
 
-  .navbar.desk {
+  .desk {
     display: flex;
     justify-content: center;
     column-gap: 50px;
