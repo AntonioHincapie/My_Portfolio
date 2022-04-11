@@ -14,13 +14,24 @@
   <header>
     <nav class="navbar">
       <a href="index.html"><img class="toolbar" src="img/shapeheader.png" alt="Redirect Home"></a>
-      <img class="rectangle" src="img/menurectangle.png" alt="Menu">
-      <ul class="navbar desk">
+      <img id="btnmenu" class="rectangle" src="img/menurectangle.png" alt="Menu">
+      <ul class="desk">
         <li><a class="navbutton" href="#hello">Hello</a></li>
         <li><a class="navbutton" href="#portfolio">Portfolio</a></li>
         <li><a class="navbutton" href="#about">About</a></li>
         <li><a class="navbutton" href="#contact">Contact</a></li>
       </ul>
+      <div id="menu">
+        <div class="exitbtn-container">
+          <img id="exitbtn" class="exit" src="img/exit.png" alt="X">
+        </div>
+        <ul id="mobile-menu">
+          <li><a href="#hello">Hello</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <section class="hellosection" id="hello">
@@ -188,5 +199,6 @@
       <li><a href="#"><img src="img/icon.png" alt="Angellist Icon"></a></li>
       </ul>
   </footer>
+  <script src="./script.js"></script>
 </body>
 </html>
