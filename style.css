@@ -34,10 +34,39 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: #e5e5e5;
+  background-color: #fff;
   background-image: url(img/backgroundmenu1.png), url(img/backgroundmenu2.png);
+  background-size: 100% auto;
   background-position: top left, bottom right;
   background-repeat: no-repeat;
+}
+
+.exitbtn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 24px;
+}
+
+#mobile-menu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+#mobile-menu li {
+  margin-top: 20px;
+}
+
+#mobile-menu a {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
 }
 
 .navbutton {
