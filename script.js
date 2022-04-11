@@ -4,15 +4,15 @@ const exitBtn = document.getElementById('exitbtn');
 const menuElements = document.querySelectorAll('#mobile-menu a')
 
 btnMenu.addEventListener('click', () => {
-    menu.style.display = 'flex';
+  menu.style.display = 'flex';
 });
 
 exitBtn.addEventListener('click', () => {
-    menu.style.display = 'none';
+  menu.style.display = 'none';
 });
 
 for (let i = 0; i < menuElements.length; i += 1) {
-    menuElements[i].addEventListener('click', () => {
-        menu.style.display = 'none';
-    });
+  menuElements[i].addEventListener('click', () => {
+  	menu.style.display = 'none';
+  });
 }

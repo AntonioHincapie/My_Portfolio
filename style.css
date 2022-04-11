@@ -28,6 +28,25 @@
   display: none;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1a2236;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1a2236;
+}
+
+a:active {
+  background-color: #fff;
+  box-shadow: 0 2px #999;
+  transform: translateY(5px);
+}
+
 #menu {
   position: fixed;
   height: 100%;
@@ -63,10 +82,10 @@
 }
 
 #mobile-menu a {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 20px;
-  color: #000000;
+  color: #000;
 }
 
 .navbutton {
@@ -79,25 +98,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  color: #1a2236;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #1a2236;
-}
-
-a:active {
-  background-color: #fff;
-  box-shadow: 0 2px #999;
-  transform: translateY(5px);
 }
 
 /* NavBar Desktop Section CSS */
