@@ -23,15 +23,11 @@ const popupExitButton = document.getElementById('popup-exitbtn');
 
 popupExitButton.addEventListener('click', () => {
   popupWindow.style.display = 'none';
-})
+});
 
 for(let i = 0; i < buttonsProject.length; i += 1) {
-
   buttonsProject[i].addEventListener('click', () => {
-    console.log(window.screenY);
-    console.log(window.scrollY);
-
     popupWindow.style.top = `${window.scrollY}px`;
     popupWindow.style.display = 'flex';
-  })
+  });
 }
