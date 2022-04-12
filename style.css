@@ -565,7 +565,10 @@ h2 {
 .popup-window {
   display: none;
   flex-direction: column;
-  margin: 15px;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  background-color: #fff;
 }
 
 .popup-window h2 {
