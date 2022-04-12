@@ -651,11 +651,6 @@ h2 {
 }
 
 .button-pop {
-  background: none;
-  border: none;
-}
-
-.button-pop{
   display: flex;
   cursor: pointer;
   justify-content: space-evenly;

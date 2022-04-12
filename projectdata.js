@@ -1,4 +1,4 @@
-export const dataProjects = [{
+export default dataProjects = [{
   projectTitle: 'Project name goes here',
   popupLanguages: ['HTML/CSS', 'Ruby on Rails', 'Javascript', 'React'],
   imgShow: ['./img/project1.png', './img/project1.png', './img/project1.png', './img/project1.png'],
