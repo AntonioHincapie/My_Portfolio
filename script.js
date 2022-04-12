@@ -1,3 +1,4 @@
+import { dataProjects } from "./projectdata";
 const btnMenu = document.getElementById('btnmenu');
 const menu = document.getElementById('menu');
 const exitBtn = document.getElementById('exitbtn');

@@ -631,7 +631,7 @@ h2 {
 }
 
 .miniatures img {
-  max-width: 25%;
+  width: 25%;
 }
 
 .popup-window p {
@@ -666,6 +666,44 @@ h2 {
   line-height: 27px;
   text-align: center;
   margin: 30px;
+}
+
+.button-pop:hover {
+  color: #fff;
+  background-color: #1a2236;
+  border: 1px solid #fff;
+}
+
+/*Popup-window Desktop Section CSS*/
+
+@media (min-width: 768px) {
+  .popup-window h2 {
+    font-size: 60px;
+  }
+
+  .langstyle {
+    font-size: 20px;
+    padding: 12px 20px 12px 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .prev,
+  .next {
+    width: 20px;
+    height: 40px;
+  }
+
+  .popup-window p {
+    font-size: 20px;
+    margin: 40px 300px 40px 300px;
+  }
+
+  .button-container {
+    flex-direction: row;
+    margin-left: 300px;
+    margin-bottom: 120px;
+  }
 }
 
 /* Aboutme Section CSS */
