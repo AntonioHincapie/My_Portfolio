@@ -655,7 +655,7 @@ h2 {
   border: none;
 }
 
-.button-pop a {
+.button-pop{
   display: flex;
   cursor: pointer;
   justify-content: space-evenly;
@@ -673,7 +673,7 @@ h2 {
   margin: 30px;
 }
 
-.button-pop a:hover {
+.button-pop:hover {
   color: #fff;
   background-color: #1a2236;
   border: 1px solid #fff;
