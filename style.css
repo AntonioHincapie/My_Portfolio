@@ -560,7 +560,7 @@ h2 {
   }
 }
 
-/*Popup-window Section CSS*/
+/* Popup-window Section CSS */
 
 .popup-window {
   display: none;
@@ -640,7 +640,7 @@ h2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  color: #1A2236;
+  color: #1a2236;
   margin: 12px;
 }
 
@@ -651,15 +651,20 @@ h2 {
 }
 
 .button-pop {
+  background: none;
+  border: none;
+}
+
+.button-pop a {
   display: flex;
   cursor: pointer;
   justify-content: space-evenly;
   align-items: center;
   width: 246px;
   height: 51px;
-  border: 1px solid #1A2236;
+  border: 1px solid #1a2236;
   background-color: #fff;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -668,13 +673,13 @@ h2 {
   margin: 30px;
 }
 
-.button-pop:hover {
+.button-pop a:hover {
   color: #fff;
   background-color: #1a2236;
   border: 1px solid #fff;
 }
 
-/*Popup-window Desktop Section CSS*/
+/* Popup-window Desktop Section CSS */
 
 @media (min-width: 768px) {
   #popup-background {
@@ -688,7 +693,7 @@ h2 {
     z-index: 5;
   }
 
-  .popup-window{
+  .popup-window {
     margin: 70px;
     z-index: 10;
   }
