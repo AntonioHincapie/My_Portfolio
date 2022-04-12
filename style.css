@@ -677,6 +677,22 @@ h2 {
 /*Popup-window Desktop Section CSS*/
 
 @media (min-width: 768px) {
+  #popup-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #1a2236;
+    opacity: 0.9;
+    z-index: 5;
+  }
+
+  .popup-window{
+    margin: 70px;
+    z-index: 10;
+  }
+
   .popup-window h2 {
     font-size: 60px;
   }
@@ -701,7 +717,7 @@ h2 {
 
   .button-container {
     flex-direction: row;
-    margin-left: 300px;
+    justify-content: center;
     margin-bottom: 120px;
   }
 }
