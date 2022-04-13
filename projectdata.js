@@ -1,4 +1,4 @@
-export default dataProjects = [{
+const dataProjects = [{
   projectTitle: 'Project name goes here',
   popupLanguages: ['HTML/CSS', 'Ruby on Rails', 'Javascript', 'React'],
   imgShow: ['./img/project1.png', './img/project1.png', './img/project1.png', './img/project1.png'],
@@ -46,3 +46,4 @@ export default dataProjects = [{
   liveUrl: 'https://antoniohincapie.github.io/My_Portfolio/',
   sourceUrl: 'https://github.com/AntonioHincapie/My_Portfolio',
 }];
+export default dataProjects;
