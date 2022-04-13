@@ -27,7 +27,7 @@ const backGround = document.getElementById('popup-background');
 const works = document.getElementById('portfolio');
 const printWorks = () => {
   let str = '';
-  let srtProject = ['a', 'b', 'c', 'd', 'e', 'f'];
+  const srtProject = ['a', 'b', 'c', 'd', 'e', 'f'];
   for (let i = 0; i < dataProjects.length; i += 1) {
     const [a] = dataProjects[i].imgShow;
     const language = () => {
