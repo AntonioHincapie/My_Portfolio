@@ -105,12 +105,17 @@ const emailLowercase = (mail) => {
     return true;
   }
 }
+
 contForm.addEventListener('submit', (event) => {
+
   event.preventDefault();
-  if (!emailLowercase(emailForm.value.trim())) {
+  console.log(emailLowercase(emailForm.value.trim()));
+
+  if (emailLowercase(emailForm.value.trim())) {
     contForm.submit();
-    errorMessage.style.display = 'block';
+    errorMessage.style.display = 'none';
   } else {
     errorMessage.style.display = 'block';
   }
+  
 });
