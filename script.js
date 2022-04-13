@@ -95,27 +95,22 @@ popupExitButton.addEventListener('click', () => {
 
 const contForm = document.getElementById('contact');
 const emailForm = document.getElementById('mail');
-const errorMessage = document.getElementById('error-message')
+const errorMessage = document.getElementById('error-message');
 
 const emailLowercase = (mail) => {
   const itLowerc = new RegExp(/[A-Z]/g);
   if (itLowerc.test(mail)) {
     return false;
-  } else {
-    return true;
   }
+  return true;
 }
 
 contForm.addEventListener('submit', (event) => {
-
   event.preventDefault();
-  console.log(emailLowercase(emailForm.value.trim()));
-
   if (emailLowercase(emailForm.value.trim())) {
     contForm.submit();
     errorMessage.style.display = 'none';
   } else {
     errorMessage.style.display = 'block';
   }
-  
 });
