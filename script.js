@@ -40,7 +40,7 @@ for (let i = 0; i < buttonsProject.length; i += 1) {
       }
       return str;
     };
-    const [a, ...b] = dataProjects[i].imgShow;
+    const [a] = dataProjects[i].imgShow;
     document.getElementById('popup-title').innerHTML = dataProjects[i].projectTitle;
     document.getElementById('languages').innerHTML = language();
     document.getElementById('main-img').src = a;
