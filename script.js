@@ -103,7 +103,7 @@ const emailLowercase = (mail) => {
     return false;
   }
   return true;
-}
+};
 
 contForm.addEventListener('submit', (event) => {
   event.preventDefault();
