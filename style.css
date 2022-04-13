@@ -269,9 +269,7 @@ h2 {
   color: #fff;
 }
 
-.html,
-.ruby,
-.js {
+.tags {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
