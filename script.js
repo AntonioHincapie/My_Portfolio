@@ -92,3 +92,25 @@ popupExitButton.addEventListener('click', () => {
   popupWindow.style.display = 'none';
   backGround.style.display = 'none';
 });
+
+const contForm = document.getElementById('contact');
+const emailForm = document.getElementById('mail');
+const errorMessage = document.getElementById('error-message');
+
+const emailLowercase = (mail) => {
+  const itLowerc = new RegExp(/[A-Z]/g);
+  if (itLowerc.test(mail)) {
+    return false;
+  }
+  return true;
+};
+
+contForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (emailLowercase(emailForm.value.trim())) {
+    contForm.submit();
+    errorMessage.style.display = 'none';
+  } else {
+    errorMessage.style.display = 'block';
+  }
+});
