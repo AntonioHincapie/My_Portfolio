@@ -118,24 +118,34 @@ contForm.addEventListener('submit', (event) => {
 });
 
 function setText() {
-  const currentName = localStorage.getItem('first-name');
-  const currentMail = localStorage.getItem('mail');
-  const currentTextarea = localStorage.getItem('text-area');
+  /*const currentName = localStorage.getItem('contact-form-info').firstName;
+  const currentMail = localStorage.getItem('contact-form-info').email;
+  const currentTextarea = localStorage.getItem('contact-form-info').textArea;*/
 
-  firstName.value = currentName;
-  emailForm.value = currentMail;
-  textArea.value = currentTextarea;
+  let contactFormInfo = JSON.parse(localStorage.getItem('info'));
+
+  console.log(contactFormInfo);
+  firstName.value = contactFormInfo.firstName;
+  emailForm.value = contactFormInfo.email;
+  textArea.value = contactFormInfo.textArea;
 }
 
 function populateStorage() {
-  localStorage.setItem('first-name', document.getElementById('first-name').value);
+  /*localStorage.setItem('first-name', document.getElementById('first-name').value);
   localStorage.setItem('mail', document.getElementById('mail').value);
-  localStorage.setItem('text-area', document.getElementById('text-area').value);
+  localStorage.setItem('text-area', document.getElementById('text-area').value);*/
+
+  console.log(firstName.value);
+
+  let contactFormInfo = {'firstName': firstName.value, 'email': emailForm.value, 'textArea': textArea.value};
+
+  localStorage.setItem('info', JSON.stringify(contactFormInfo));
 
   setText();
+
 }
 
-if (!localStorage.getItem('first-name')) {
+if (!localStorage.getItem('info')) {
   populateStorage();
 } else {
   setText();
