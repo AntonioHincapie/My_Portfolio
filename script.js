@@ -117,14 +117,14 @@ contForm.addEventListener('submit', (event) => {
   }
 });
 
-function setStyles() {
+function setText() {
   const currentName = localStorage.getItem('first-name');
   const currentMail = localStorage.getItem('mail');
   const currentTextarea = localStorage.getItem('text-area');
 
-  document.getElementById('first-name').value = currentName;
-  document.getElementById('mail').value = currentMail;
-  document.getElementById('text-area').value = currentTextarea;
+  firstName.value = currentName;
+  emailForm.value = currentMail;
+  textArea.value = currentTextarea;
 }
 
 function populateStorage() {
@@ -132,13 +132,13 @@ function populateStorage() {
   localStorage.setItem('mail', document.getElementById('mail').value);
   localStorage.setItem('text-area', document.getElementById('text-area').value);
 
-  setStyles();
+  setText();
 }
 
 if (!localStorage.getItem('first-name')) {
   populateStorage();
 } else {
-  setStyles();
+  setText();
 }
 
 firstName.onchange = populateStorage;
