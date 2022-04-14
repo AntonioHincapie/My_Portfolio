@@ -95,6 +95,8 @@ popupExitButton.addEventListener('click', () => {
 
 const contForm = document.getElementById('contact');
 const emailForm = document.getElementById('mail');
+const firstName = document.getElementById('first-name');
+const textArea = document.getElementById('text-area');
 const errorMessage = document.getElementById('error-message');
 
 const emailLowercase = (mail) => {
@@ -114,3 +116,31 @@ contForm.addEventListener('submit', (event) => {
     errorMessage.style.display = 'block';
   }
 });
+
+if(!localStorage.getItem('first-name')) {
+  populateStorage();
+} else {
+  setStyles();
+}
+
+function populateStorage() {
+  localStorage.setItem('first-name', document.getElementById('first-name').value);
+  localStorage.setItem('mail', document.getElementById('mail').value);
+  localStorage.setItem('text-area', document.getElementById('text-area').value);
+
+  setStyles();
+}
+
+function setStyles() {
+  let currentName = localStorage.getItem('first-name');
+  let currentMail = localStorage.getItem('mail');
+  let currentTextarea = localStorage.getItem('text-area');
+
+  document.getElementById('first-name').value = currentName;
+  document.getElementById('mail').value = currentMail;
+  document.getElementById('text-area').value = currentTextarea;
+}
+
+firstName.onchange = populateStorage;
+emailForm.onchange = populateStorage;
+textArea.onchange = populateStorage;
