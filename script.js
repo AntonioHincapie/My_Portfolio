@@ -125,7 +125,7 @@ function setText() {
 }
 
 function populateStorage() {
-  localStorage.setItem('info', JSON.stringify({'firstName': firstName.value, 'email': emailForm.value, 'textArea': textArea.value}));
+  localStorage.setItem('info', JSON.stringify({ firstName: firstName.value, email: emailForm.value, textArea: textArea.value }));
 
   setText();
 }
