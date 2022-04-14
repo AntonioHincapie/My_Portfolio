@@ -118,16 +118,14 @@ contForm.addEventListener('submit', (event) => {
 });
 
 function setText() {
-  let contactFormInfo = JSON.parse(localStorage.getItem('info'));
-  
+  const contactFormInfo = JSON.parse(localStorage.getItem('info'));
   firstName.value = contactFormInfo.firstName;
   emailForm.value = contactFormInfo.email;
   textArea.value = contactFormInfo.textArea;
 }
 
 function populateStorage() {
-  let contactFormInfo = {'firstName': firstName.value, 'email': emailForm.value, 'textArea': textArea.value};
-  localStorage.setItem('info', JSON.stringify(contactFormInfo));
+  localStorage.setItem('info', JSON.stringify({'firstName': firstName.value, 'email': emailForm.value, 'textArea': textArea.value}));
 
   setText();
 }
