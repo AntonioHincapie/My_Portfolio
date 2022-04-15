@@ -95,6 +95,8 @@ popupExitButton.addEventListener('click', () => {
 
 const contForm = document.getElementById('contact');
 const emailForm = document.getElementById('mail');
+const firstName = document.getElementById('first-name');
+const textArea = document.getElementById('text-area');
 const errorMessage = document.getElementById('error-message');
 
 const emailLowercase = (mail) => {
@@ -114,3 +116,26 @@ contForm.addEventListener('submit', (event) => {
     errorMessage.style.display = 'block';
   }
 });
+
+function setText() {
+  const contactFormInfo = JSON.parse(localStorage.getItem('info'));
+  firstName.value = contactFormInfo.firstName;
+  emailForm.value = contactFormInfo.email;
+  textArea.value = contactFormInfo.textArea;
+}
+
+function populateStorage() {
+  localStorage.setItem('info', JSON.stringify({ firstName: firstName.value, email: emailForm.value, textArea: textArea.value }));
+
+  setText();
+}
+
+if (!localStorage.getItem('info')) {
+  populateStorage();
+} else {
+  setText();
+}
+
+firstName.onchange = populateStorage;
+emailForm.onchange = populateStorage;
+textArea.onchange = populateStorage;
