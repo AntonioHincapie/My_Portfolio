@@ -1,10 +1,10 @@
 const dataProjects = [{
-  projectTitle: 'Project name goes here',
-  popupLanguages: ['HTML/CSS', 'Ruby on Rails', 'Javascript', 'React'],
-  imgShow: ['./img/project1.png', './img/project1.png', './img/project1.png', './img/project1.png'],
-  pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-  liveUrl: 'https://antoniohincapie.github.io/My_Portfolio/',
-  sourceUrl: 'https://github.com/AntonioHincapie/My_Portfolio',
+  projectTitle: 'To-Do List',
+  popupLanguages: ['HTML/CSS', 'Javascript'],
+  imgShow: ['./img/to-do-list/to-do-list1.png', './img/to-do-list/to-do-list2.png', './img/to-do-list/to-do-list3.png', './img/to-do-list/to-do-list4.png'],
+  pText: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. I will build a simple website that allows for doing that, and I will do it using ES6 and Webpack!',
+  liveUrl: 'https://antoniohincapie.github.io/to-do-list/',
+  sourceUrl: 'https://github.com/AntonioHincapie/to-do-list',
 },
 {
   projectTitle: 'Project name goes here',
