@@ -1,6 +1,8 @@
 # My_Portfolio
 
-The first contruction of my future professional portfolio.
+My portfolio is one of the most powerful tools in my software developer toolbox; it’s the easiest way of showing what I'm truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what I can bring to their teams.
+
+As you work your way through Microverse curriculum materials I will complete several small projects that will combine to create a website for my portfolio. A portfolio website is a key job searching tool for a web developer, and in Micorverse want me to start working on it from the beginning of the Microverse program. In this project, I will precisely replicate one of the portfolio templates Microverse are providing for me. However, later on during my Microverse journey I will include my own projects in the portfolio in order to use it for job searching.
 
 ## Built With
 
